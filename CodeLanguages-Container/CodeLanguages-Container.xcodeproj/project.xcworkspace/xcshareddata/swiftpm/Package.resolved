@@ -1,5 +1,5 @@
 {
-  "originHash" : "c940c7467f54711e27ceb0cef308954e1fdbcc20f3dd59d96d6efbe29d7a04ba",
+  "originHash" : "79658dee0f02cfa9782ad2508ee3218fdd1a1af627d232ae4cab0cb68b827059",
   "pins" : [
     {
       "identity" : "tree-sitter-agda",
@@ -170,6 +170,15 @@
       "state" : {
         "branch" : "main",
         "revision" : "76f53c48d29e8588934fb55b0240d7bdfe00bfe5"
+      }
+    },
+    {
+      "identity" : "tree-sitter-latex",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/x3nonite/tree-sitter-latex",
+      "state" : {
+        "branch" : "master",
+        "revision" : "c8e64f94ac440addfd40ab697c2439c9856c616f"
       }
     },
     {

@@ -127,6 +127,8 @@ public struct CodeLanguage {
             return tree_sitter_julia()
         case .kotlin:
             return tree_sitter_kotlin()
+        case .latex:
+            return tree_sitter_latex()
         case .lua:
             return tree_sitter_lua()
         case .markdown:

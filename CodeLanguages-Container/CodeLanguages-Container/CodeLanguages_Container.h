@@ -41,6 +41,7 @@ extern TSLanguage *tree_sitter_jsdoc();
 extern TSLanguage *tree_sitter_json();
 extern TSLanguage *tree_sitter_julia();
 extern TSLanguage *tree_sitter_kotlin();
+extern TSLanguage *tree_sitter_latex();
 extern TSLanguage *tree_sitter_lua();
 extern TSLanguage *tree_sitter_markdown();
 extern TSLanguage *tree_sitter_markdown_inline();

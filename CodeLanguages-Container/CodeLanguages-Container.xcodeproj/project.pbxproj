@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		070CB9772ED84CE0005DCBD8 /* TreeSitterLatex in Frameworks */ = {isa = PBXBuildFile; productRef = 070CB9762ED84CE0005DCBD8 /* TreeSitterLatex */; };
+		07C200FC2ED85E9A00726CBC /* TreeSitterLatex in Frameworks */ = {isa = PBXBuildFile; productRef = 07C200FB2ED85E9A00726CBC /* TreeSitterLatex */; };
 		282E5977298051980064B34A /* TreeSitterYAML in Frameworks */ = {isa = PBXBuildFile; productRef = 282E5976298051980064B34A /* TreeSitterYAML */; };
 		2846B262296BA1CF005F60B6 /* TreeSitterDockerfile in Frameworks */ = {isa = PBXBuildFile; productRef = 2846B261296BA1CF005F60B6 /* TreeSitterDockerfile */; };
 		285BF67329AAA45B00641989 /* TreeSitterLua in Frameworks */ = {isa = PBXBuildFile; productRef = 285BF67229AAA45B00641989 /* TreeSitterLua */; };
@@ -83,6 +85,7 @@
 				28B3F033290C3608000CD04D /* TreeSitterCSharp in Frameworks */,
 				28B3F03F290C364D000CD04D /* TreeSitterGoMod in Frameworks */,
 				28B3F063290C372D000CD04D /* TreeSitterZig in Frameworks */,
+				070CB9772ED84CE0005DCBD8 /* TreeSitterLatex in Frameworks */,
 				9D7399272A5A2B5300CEF6E8 /* TreeSitterJulia in Frameworks */,
 				8E74B41D2A4C88ED003A9550 /* TreeSitterHTML in Frameworks */,
 				8ED0560A2A4DBE6E00829B80 /* TreeSitterTypeScript in Frameworks */,
@@ -91,6 +94,7 @@
 				28B3F048290C367C000CD04D /* TreeSitterJava in Frameworks */,
 				6CEC70FE29C3A85000B61C7A /* TreeSitterRegex in Frameworks */,
 				282E5977298051980064B34A /* TreeSitterYAML in Frameworks */,
+				07C200FC2ED85E9A00726CBC /* TreeSitterLatex in Frameworks */,
 				9D7399242A5A245000CEF6E8 /* TreeSitterAgda in Frameworks */,
 				8E7B8ABD2A5D916F00CFC1A7 /* TreeSitterPython in Frameworks */,
 				2886C788298135540023E016 /* TreeSitterKotlin in Frameworks */,
@@ -204,6 +208,8 @@
 				6CF2B8402CE978F100CBE5D1 /* TreeSitterDart */,
 				6CE117F82CEA7BDC0082D393 /* TreeSitterDart */,
 				6CE117FB2CEA7CF80082D393 /* TreeSitterDart */,
+				070CB9762ED84CE0005DCBD8 /* TreeSitterLatex */,
+				07C200FB2ED85E9A00726CBC /* TreeSitterLatex */,
 			);
 			productName = "CodeLanguages-Container";
 			productReference = 28B3F00C290C207D000CD04D /* CodeLanguages_Container.framework */;
@@ -271,6 +277,7 @@
 				6C0B93A62B5DD95500323006 /* XCRemoteSwiftPackageReference "tree-sitter-css" */,
 				6C7CA2AB2CE9743E006D9D9A /* XCRemoteSwiftPackageReference "tree-sitter-objc" */,
 				6CE117FA2CEA7CF80082D393 /* XCRemoteSwiftPackageReference "tree-sitter-dart" */,
+				07C200FA2ED85E9A00726CBC /* XCRemoteSwiftPackageReference "tree-sitter-latex" */,
 			);
 			productRefGroup = 28B3F00D290C207D000CD04D /* Products */;
 			projectDirPath = "";
@@ -520,6 +527,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		07C200FA2ED85E9A00726CBC /* XCRemoteSwiftPackageReference "tree-sitter-latex" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/x3nonite/tree-sitter-latex";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		282E5975298051980064B34A /* XCRemoteSwiftPackageReference "tree-sitter-yaml" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/tree-sitter-grammars/tree-sitter-yaml.git";
@@ -819,6 +834,15 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		070CB9762ED84CE0005DCBD8 /* TreeSitterLatex */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TreeSitterLatex;
+		};
+		07C200FB2ED85E9A00726CBC /* TreeSitterLatex */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07C200FA2ED85E9A00726CBC /* XCRemoteSwiftPackageReference "tree-sitter-latex" */;
+			productName = TreeSitterLatex;
+		};
 		282E5976298051980064B34A /* TreeSitterYAML */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 282E5975298051980064B34A /* XCRemoteSwiftPackageReference "tree-sitter-yaml" */;
